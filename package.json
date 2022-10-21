@@ -1,0 +1,20 @@
+{
+  "name": "meteo",
+  "source": "public/index.html",
+  "main": "/src/scripts/index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "version": "1.0.0",
+  "description": "A parcel template",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "me",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
