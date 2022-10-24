@@ -1,10 +1,12 @@
 {
   "name": "fake-news",
   "source": "public/index.html",
-  "main": "index.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.0",
   "description": "fake-news project",
+  "engines": {
+    "node": ">= 12"
+  },
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
